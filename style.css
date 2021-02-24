@@ -19,12 +19,21 @@ body {
     display: flex;
     list-style-type: none;
 }
+
 #welcome-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 10vh;
     background-color: blue;
     color:#fff;
+}
+
+.projects-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+figure {
+    margin: 1rem;
 }
