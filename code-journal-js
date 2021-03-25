@@ -1,0 +1,7 @@
+/* Variables - containers that store values */
+
+var name // a declared variable, but not initialized (no value) and it's in the global scope (BAD)
+
+let foo // a declared variable that can be changed
+
+const bar = 'Bar' // a declared variable that cannot be changed - short for 'constant'
